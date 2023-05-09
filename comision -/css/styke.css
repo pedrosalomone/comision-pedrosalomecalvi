@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,400;1,500;1,900&display=swap');
+/*---reset---*/
+h1{
+color:black; justify-content: center;align-items: center;
+font-weight: 800;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+nav ol{
+    display: flex;
+    flex-direction:
+    row ;
+    justify-content:
+    space-between ;
+    align-items:
+    center;
+    height:40px;
+}
+/*---header---*/
+
+header{
+    background-color: burlywood ;display: flex;flex-direction:row ;justify-content:center;position: fixed;width: 100vw;height: 100px; padding: 0;margin: 0; top: 0; left: 0;
+    
+}
+
+header main section div{
+    color: green;
+}
+header nav ul{
+    list-style-type:none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+header nav ul li{
+    display: inline-block;
+}
+/*---main---*/
+
+/*---footer---*/
+footer div h3{
+    color:burlywood
+}
